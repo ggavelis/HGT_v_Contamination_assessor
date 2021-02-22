@@ -1,6 +1,11 @@
 # HGT_v_Contamination_assessor
 
-This script takes existing metadata about each DNA/AA sequence, and uses that--in combination with an alien index value--to determine whether each sequence should be flagged as a contaminant. This script expects 2 inputs (1) a fasta file to decontaminate, (2) a 'supertsv' metadata file that contains the following fields  (seq_id | alien_index_value | num_splice_variants | lineage_of_best_BLAST_hit | spliced_leader[True/False] | polyA_tail[True/False]). This script also expects 1 parameter -- the AI cutoff used for screening. (default AI_cutoff = 0.01)
+This script takes existing metadata about each DNA/AA sequence, and uses that--in combination with an alien index value--to determine whether each sequence should be flagged as a contaminant. 
+
+#### Inputs
+1. (parameter) AI cutoff used for screening. (default AI_cutoff = 0.01)
+2. (file) Fasta file to decontaminate
+3. (file) a 'supertsv' metadata file that contains the following fields<br>  (seq_id | alien_index_value | num_splice_variants | lineage_of_best_BLAST_hit | spliced_leader[True/False] | polyA_tail[True/False])
 
 #### Rationale
 
