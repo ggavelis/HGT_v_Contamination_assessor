@@ -9,7 +9,7 @@ Alien indices can be used as heuristics to infer whether a sequence is likely to
 2.  A second-pass "rescue" step that uses sequence metadata to redeem certain sequences. For example:
 <br>  A.  Any sequence with a dinoflagellate spliced-leader is unflagged as native.
 <br>  B.  Any best-hit to prokaryotes is unflagged if it has:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i.  A poly-A tail
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii.  Multiple splice isoforms
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i.  A poly-A tail
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii.  Multiple splice isoforms
 
 This script also gathers metrics about the frequency of HGT from various groups.
